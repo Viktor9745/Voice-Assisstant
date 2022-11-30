@@ -16,5 +16,11 @@ def offpc():
 def weather():
     print('weather')
 
+def telegram():
+    subprocess.Popen('C:/Users/Yerkebulan/AppData/Roaming/Telegram Desktop/Telegram.exe')
+
+# def game():
+#     subprocess.Popen()
+
 def offbot():
     sys.exit()
