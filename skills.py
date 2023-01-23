@@ -20,7 +20,7 @@ def weather():
 	'''Для работы этого кода нужно зарегистрироваться на сайте
 	https://openweathermap.org или переделать на ваше усмотрение под что-то другое'''
 	try:
-		params = {'q': 'Almaty', 'units': 'metric', 'lang': 'ru', 'appid': '4db0bcb363208ddf403a9da11323059e'}
+		params = {'q': 'Almaty', 'units': 'metric', 'lang': 'ru', 'appid': 'API'}
 		response = requests.get(f'https://api.openweathermap.org/data/2.5/weather', params=params)
 		if not response:
 			raise
